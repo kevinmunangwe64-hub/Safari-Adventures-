@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Discover Kenya with Safari Adventures: local tours, safaris, beaches and unforgettable experiences. Request your trip by WhatsApp.">
+<title>Safari Adventures | Discover Kenya</title>
+<style>
+:root{--green:#164e3b;--green2:#247653;--gold:#f3b642;--cream:#fffaf0;--ink:#17231d;--muted:#64736a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#ffffffed;backdrop-filter:blur(10px);border-bottom:1px solid #e7eee8}
+.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;color:var(--green);font-size:1.25rem;text-decoration:none;letter-spacing:-.4px}.brand span{color:var(--gold)}nav{display:flex;gap:22px;align-items:center}nav a{text-decoration:none;font-size:.94rem;font-weight:650}.nav-cta,.btn{display:inline-flex;justify-content:center;align-items:center;background:var(--green);color:#fff;border:0;border-radius:999px;padding:12px 19px;text-decoration:none;font-weight:750;cursor:pointer}.nav-cta:hover,.btn:hover{background:var(--green2)}.menu{display:none;background:none;border:0;font-size:1.5rem}
+.hero{background:linear-gradient(90deg,rgba(8,36,25,.83),rgba(8,36,25,.28)),url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=2000&q=85') center/cover;color:white;min-height:570px;display:flex;align-items:center}.hero-content{padding:75px 0;max-width:690px}.eyebrow{color:var(--gold);font-weight:850;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}.hero h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.02;letter-spacing:-2px;margin:16px 0}.hero p{font-size:1.12rem;max-width:570px;color:#f0f5f1}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn.gold{background:var(--gold);color:#1f2a21}.btn.outline{background:transparent;border:1px solid #ffffffb8}.trust{display:flex;gap:26px;flex-wrap:wrap;margin-top:32px;color:#f6f8f6;font-size:.92rem}.trust strong{color:white}
+section{padding:76px 0}.section-head{max-width:650px;margin-bottom:30px}.section-head h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-1px;margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid #e7eee8;border-radius:18px;overflow:hidden;background:white;box-shadow:0 8px 28px #163b2410}.card img{width:100%;height:210px;object-fit:cover;display:block}.card-body{padding:20px}.tag{display:inline-block;background:#edf5ee;color:var(--green);padding:5px 10px;border-radius:30px;font-size:.76rem;font-weight:800}.card h3{margin:12px 0 6px;font-size:1.28rem}.card p{color:var(--muted);margin:0 0 14px}.card-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px}.text-link{color:var(--green);font-weight:800;text-decoration:none}.soft{background:var(--cream)}.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.feature-img{width:100%;height:410px;object-fit:cover;border-radius:22px}.feature-list{padding:0;list-style:none}.feature-list li{margin:14px 0;display:flex;gap:12px}.check{color:var(--green);font-weight:900}.booking{background:var(--green);color:white}.booking .section-head p{color:#d6e5dc}.booking-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:45px;align-items:start}.booking-info{background:#ffffff10;border:1px solid #ffffff2c;padding:24px;border-radius:18px}.booking-info p{color:#e1eee6}.form{background:white;color:var(--ink);padding:26px;border-radius:18px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-size:.88rem;font-weight:750}input,select,textarea{font:inherit;padding:12px;border:1px solid #d7e0d9;border-radius:10px;width:100%;background:#fff;color:var(--ink)}textarea{min-height:105px;resize:vertical}.form .btn{width:100%;border-radius:10px}.hint{font-size:.82rem;color:#637168;margin:0}.notice{display:none;padding:12px;background:#edf5ee;color:var(--green);border-radius:10px;grid-column:1/-1;font-weight:650}
+footer{background:#102f24;color:#e9f2ec;padding:35px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-row p{margin:6px 0;color:#c1d2c7;font-size:.9rem}.footer-links{display:flex;gap:18px;flex-wrap:wrap}.footer-links a{color:#e9f2ec;text-decoration:none;font-size:.9rem}.small{font-size:.82rem;color:#c1d2c7;margin-top:22px}
+@media(max-width:760px){.nav{min-height:64px}.menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:64px;background:white;padding:18px 4%;border-bottom:1px solid #e7eee8;flex-direction:column;align-items:flex-start}nav.open{display:flex}.nav-cta{padding:9px 13px;font-size:.85rem}.hero{min-height:540px}.hero-content{padding:60px 0}.cards{grid-template-columns:1fr}.card img{height:225px}section{padding:58px 0}.feature-grid,.booking-grid{grid-template-columns:1fr;gap:28px}.feature-img{height:290px}.form{grid-template-columns:1fr;padding:20px}.field.full{grid-column:auto}.section-head h2{letter-spacing:-.5px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap nav">
+  <a class="brand" href="#home">SAFARI <span>ADVENTURES</span></a>
+  <button class="menu" id="menu" aria-label="Open navigation">☰</button>
+  <nav id="nav"><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#about">Why us</a><a href="#booking">Book a trip</a></nav>
+  <a class="nav-cta" href="#booking">Plan your trip ↗</a>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="wrap hero-content">
+  <div class="eyebrow">Your Kenya adventure starts here</div>
+  <h1>Find your wild.<br>Feel Kenya.</h1>
+  <p>From golden savannahs and unforgettable safaris to palm-lined beaches and vibrant city culture, discover Kenya with local knowledge.</p>
+  <div class="hero-actions"><a class="btn gold" href="#destinations">Explore destinations</a><a class="btn outline" href="#booking">Request a booking</a></div>
+  <div class="trust"><span>✓ <strong>Local experiences</strong></span><span>✓ <strong>Trips made for you</strong></span><span>✓ <strong>Easy enquiries</strong></span></div>
+ </div>
+</section>
+<section id="destinations">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Explore the country</div><h2>Kenya, in every direction.</h2><p>Choose your kind of escape. Tell us what you have in mind and we'll help you plan the details.</p></div>
+  <div class="cards">
+   <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80" alt="Wildlife safari across the African savannah"><div class="card-body"><span class="tag">Wildlife & nature</span><h3>Maasai Mara</h3><p>Open plains, remarkable wildlife and classic safari moments.</p><div class="card-bottom"><span>Safari adventures</span><a class="text-link choose" href="#booking" data-trip="Maasai Mara safari">Enquire →</a></div></div></article>
+   <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=900&q=80" alt="Tropical beach with turquoise ocean"><div class="card-body"><span class="tag">Coast & relaxation</span><h3>Diani Beach</h3><p>White sand, warm ocean water and a slower coastal pace.</p><div class="card-bottom"><span>Beach escapes</span><a class="text-link choose" href="#booking" data-trip="Diani Beach getaway">Enquire →</a></div></div></article>
+   <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1518684079-3c830d9c6b8b?auto=format&fit=crop&w=900&q=80" alt="Mount Kilimanjaro rising over the landscape"><div class="card-body"><span class="tag">Mountains & scenery</span><h3>Amboseli</h3><p>Big skies, elephant country and beautiful mountain views.</p><div class="card-bottom"><span>Nature trips</span><a class="text-link choose" href="#booking" data-trip="Amboseli national park trip">Enquire →</a></div></div></article>
+  </div>
+ </div>
+</section>
+<section class="soft" id="experiences">
+ <div class="wrap feature-grid">
+  <div><img class="feature-img" loading="lazy" src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1100&q=85" alt="Giraffes in a natural African landscape"></div>
+  <div><div class="eyebrow">Travel your way</div><div class="section-head"><h2>More than a holiday. A story to take home.</h2><p>Whether you have one free day or a full week, start with what you love and build a trip around it.</p></div>
+   <ul class="feature-list"><li><span class="check">✓</span><div><strong>Wildlife safaris</strong><br><span>Explore national parks and conservation areas.</span></div></li><li><span class="check">✓</span><div><strong>Coastal escapes</strong><br><span>Plan beach days, ocean activities and Swahili coast discoveries.</span></div></li><li><span class="check">✓</span><div><strong>Culture and city experiences</strong><br><span>Discover food, heritage, markets and local neighbourhoods.</span></div></li><li><span class="check">✓</span><div><strong>Personal trip planning</strong><br><span>Share your dates, group size and budget to get started.</span></div></li></ul>
+   <a class="btn" href="#booking">Build my trip</a>
+  </div>
+ </div>
+</section>
+<section id="about">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Simple to get started</div><h2>Your trip begins with a message.</h2><p>This is a starter booking website: send your trip request, then confirm availability, price, payment terms and details directly with the tour provider.</p></div>
+  <div class="cards">
+   <article class="card"><div class="card-body"><span class="tag">01 · Tell us</span><h3>Share your plans</h3><p>Choose a destination, travel dates, number of guests and the experience you want.</p></div></article>
+   <article class="card"><div class="card-body"><span class="tag">02 · Plan together</span><h3>Get the details</h3><p>Discuss itinerary options, inclusions, transport, accommodation and total cost.</p></div></article>
+   <article class="card"><div class="card-body"><span class="tag">03 · Confirm</span><h3>Book with confidence</h3><p>Confirm directly with the provider and request written booking and payment terms.</p></div></article>
+  </div>
+ </div>
+</section>
+<section class="booking" id="booking">
+ <div class="wrap booking-grid">
+  <div><div class="eyebrow">Let's plan your adventure</div><div class="section-head"><h2>Where would you like to go?</h2><p>Fill in the form and continue to WhatsApp with your trip request ready to send.</p></div>
+   <div class="booking-info"><strong>Good to know</strong><p>This form sends a request, not a confirmed reservation. A trip is booked only after the provider confirms availability, final price and payment terms.</p><p>✉ Email: kevinmunangwe64@gmail.com · WhatsApp enquiries enabled.</p></div>
+  </div>
+  <form class="form" id="bookingForm">
+   <div class="field"><label for="name">Your name *</label><input id="name" name="name" required placeholder="Full name"></div>
+   <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com"></div>
+   <div class="field"><label for="trip">Destination or tour *</label><select id="trip" name="trip" required><option value="">Choose an experience</option><option>Maasai Mara safari</option><option>Diani Beach getaway</option><option>Amboseli national park trip</option><option>Nairobi city experience</option><option>Custom Kenya trip</option></select></div>
+   <div class="field"><label for="guests">Number of travellers *</label><select id="guests" name="guests" required><option value="">Select group size</option><option>1 person</option><option>2 people</option><option>3–5 people</option><option>6–10 people</option><option>More than 10</option></select></div>
+   <div class="field"><label for="date">Preferred travel date</label><input id="date" name="date" type="date"></div>
+   <div class="field"><label for="budget">Approximate budget (KES)</label><select id="budget" name="budget"><option value="Not sure yet">Not sure yet</option><option>Under KSh 10,000</option><option>KSh 10,000–30,000</option><option>KSh 30,000–75,000</option><option>KSh 75,000+</option></select></div>
+   <div class="field full"><label for="notes">Anything else we should know?</label><textarea id="notes" name="notes" placeholder="Activities, accommodation, pickup location, special requests…"></textarea></div>
+   <div class="field full"><button class="btn" type="submit">Continue to WhatsApp →</button><p class="hint">Your WhatsApp app will open with the request. Review it and press Send.</p></div>
+   <div class="notice" id="notice" role="status">Your request is ready. If WhatsApp did not open, check that your browser allows it.</div>
+  </form>
+ </div>
+</section>
+</main>
+<footer><div class="wrap"><div class="footer-row"><div><a class="brand" href="#home" style="color:white">SAFARI <span>ADVENTURES</span></a><p>Discover Kenya, one experience at a time.</p><p>Email: <a href="mailto:kevinmunangwe64@gmail.com" style="color:#e9f2ec">kevinmunangwe64@gmail.com</a></p></div><div class="footer-links"><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#booking">Enquiries</a></div></div><p class="small">Starter website template. Replace the sample brand, images and contact details with your own before publishing. Destination photos are loaded from Unsplash and require an internet connection.</p></div></footer>
+<script>
+const menu=document.getElementById('menu'),nav=document.getElementById('nav');
+menu.addEventListener('click',()=>nav.classList.toggle('open'));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+document.querySelectorAll('.choose').forEach(a=>a.addEventListener('click',()=>{document.getElementById('trip').value=a.dataset.trip; }));
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const data=new FormData(this);
+ const msg=[
+  'Hello Safari Adventures! I would like to request a Kenya tour booking.',
+  'Name: '+(data.get('name')||'Not provided'),
+  'Email: '+(data.get('email')||'Not provided'),
+  'Tour: '+(data.get('trip')||'Not selected'),
+  'Travellers: '+(data.get('guests')||'Not specified'),
+  'Preferred date: '+(data.get('date')||'Flexible'),
+  'Budget: '+(data.get('budget')||'Not sure yet'),
+  'Notes: '+(data.get('notes')||'None'),
+  '',
+  'Please confirm availability, total price, what is included, and payment terms.'
+ ].join('\n');
+ // Business WhatsApp: Kenya number 0114077309 converted to international format 254114077309.
+ const whatsappNumber='254114077309';
+ document.getElementById('notice').style.display='block';
+ window.open('https://wa.me/'+whatsappNumber+'?text='+encodeURIComponent(msg),'_blank','noopener');
+});
+</script>
+</body>
+</html>
